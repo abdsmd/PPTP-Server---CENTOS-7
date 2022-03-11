@@ -35,7 +35,7 @@ cp /etc/ppp/chap-secrets /etc/ppp/chap-secrets.bak
 
 cat >/etc/ppp/chap-secrets<<EOF
 USERNAME pptpd PASSWORD		*
-abdsmd	pptpd	abcd1234	10.0.10.12
+abdsmd	pptpd	abcd1234	10.0.10.101
 EOF
 
 cp /etc/sysctl.conf /etc/sysctl.conf.bak
